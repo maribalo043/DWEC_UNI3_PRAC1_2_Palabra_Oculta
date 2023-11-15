@@ -6,8 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" type="text/css" href="style/formulario.css" />
         <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-        <script src="js/adivinapalabra.js" type="text/javascript"></script>
-        <script src="js/ejercicio1.js"></script>	
+        <script defer src="InicioJuego.js"></script>	
     </head>
 
     <body>
@@ -15,9 +14,26 @@
         <h3>Adivina la palabra oculta</h3>
         
         <form id="formulario" action="#" method="get">
+            <div class="dificultad">
+            <legend>Dificultad:</legend>
+            <label>
+                <input type="radio" name="opcionesLetras" value="4" checked>
+                4 letras
+            </label>
+    
+            <label>
+                <input type="radio" name="opcionesLetras" value="6">
+                6 letras
+            </label>
+    
+            <label>
+                <input type="radio" name="opcionesLetras" value="8">
+                8 letras
+            </label>
+        </div>
             <div class="linea_formulario">
                 <label for="letras">Letras</label>
-                <input type="text" name="letras" id="letras" value="" />
+                <input type="text" name="letras" id="letras" value="" readonly/>
 
                 <div class="limpia"> </div>
             </div>  
