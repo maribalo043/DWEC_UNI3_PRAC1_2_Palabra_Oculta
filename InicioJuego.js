@@ -26,6 +26,7 @@ function finalizarJuego() {
 }
 
 function resolverProblema() {
+    partidas++;
     document.getElementById('nueva').disabled = false;
     document.getElementById('palabra').disabled = true;
     document.getElementById('palabra').value = palabraElegida;
