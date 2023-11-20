@@ -9,7 +9,7 @@ var partidas = 0;
 var aciertos = 0;
 var palabras = [];
 palabras[0] = ["CASA", "PELO", "OJOS", "PERO", "PENA", "SOGE", "VIVE", "RAFA", "GAYO", "BAJO"];
-palabras[1] = ["ARROJA", "ANDREA", "JANDRO", "CIEGOS", "GORDOS", "PABLOS", "JANDROS", "LUCHOS", "CHICLE", "ESPADA"];
+palabras[1] = ["ARROJA", "ANDREA", "JANDRO", "CIEGOS", "GORDOS", "PABLOS", "JANDR2", "LUCHOS", "CHICLE", "ESPADA"];
 palabras[2] = ["DESAYUNA", "FLUYAMOS", "MARACUYA", "PAPAGALO", "MATABUEY", "PETABYTE", "PLAYEROS", "SUBRAYAR", "TROYANOS", "CEGUERAS"];
 
 function finalizarJuego() {
